@@ -1,0 +1,20 @@
+download SQLIte ..
+
+go to C:\sqlite-tools-win32-x86-3360000
+and run sqlite3.exe
+==========================================================================================================
+sqlite> create table contacts ( name text , phone integer , email text );
+sqlite> insert into contacts (name,phone,email) values ( 'Tim', 050232,'shadi@dkap');
+sqlite> select * from contacts;
+Tim|50232|shadi@dkap
+==========================================================================================================
+JDBC - Java Database Connectivity
+
+Download sqlite-jdbc-3.34.0.jar (driver) and adding it to Project structure ( Java - add library ) sqlite-jdbc-3.7.2.jar
+https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc/3.34.0
+
+Download SQLite Database browser
+
+
+
+
